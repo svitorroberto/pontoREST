@@ -1,0 +1,7 @@
+import todo.Configuracao
+
+model {
+	Configuracao configuracao
+}
+
+json g.render(configuracao)

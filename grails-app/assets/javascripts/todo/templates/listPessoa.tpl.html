@@ -1,0 +1,30 @@
+<table>
+	<tbody>
+	<th>
+		ID
+	</th>
+	<th>
+		Nome
+	</th>
+	<th>
+		Nível
+	</th>
+	<th>
+		Opção
+	</th>
+	<tr ng-repeat="p in vm.pessoas">
+		<td>
+			{{p.id}}
+		</td>
+		<td>
+			{{p.nome}}
+		</td>
+		<td>
+			{{p.nivel}}
+		</td>
+		<td>
+			<button type="button" ng-click="vm.delete(r)">Deletar</button>
+		</td>
+	</tr>
+	</tbody>
+</table>

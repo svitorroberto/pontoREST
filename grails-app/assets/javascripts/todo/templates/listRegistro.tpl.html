@@ -1,0 +1,30 @@
+<table>
+	<tbody>
+	<th>
+		ID
+	</th>
+	<th>
+		Hora
+	</th>
+	<th>
+		Justificativa
+	</th>
+	<th>
+		Opção
+	</th>
+	<tr ng-repeat="r in vm.registros">
+		<td>
+			{{r.id}}
+		</td>
+		<td>
+			{{r.dataEHora}}
+		</td>
+		<td>
+			{{r.justificativa}}
+		</td>
+		<td>
+			<button type="button" ng-click="vm.delete(r)">Deletar</button>
+		</td>
+	</tr>
+	</tbody>
+</table>

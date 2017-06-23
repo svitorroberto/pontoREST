@@ -1,0 +1,7 @@
+import todo.Configuracao
+
+model {
+	Configuracao configuracao
+}
+
+json tmpl.configuracao(configuracao)

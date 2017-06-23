@@ -1,0 +1,36 @@
+<table>
+	<tbody>
+	<th>
+		ID
+	</th>
+	<th>
+		Dia da Semana
+	</th>
+	<th>
+		Carga Horária
+	</th>
+	<th>
+		Tipo
+	</th>
+	<th>
+		Opções
+	</th>
+	<tr ng-repeat="p in vm.configuracoes">
+		<td>
+			{{p.id}}
+		</td>
+		<td>
+			{{p.diaDaSemana}}
+		</td>
+		<td>
+			{{p.cargaHoraria}}
+		</td>
+		<td>
+			{{p.tipo}}
+		</td>
+		<td>
+			<button type="button" ng-click="vm.delete(r)">Deletar</button>
+		</td>
+	</tr>
+	</tbody>
+</table>

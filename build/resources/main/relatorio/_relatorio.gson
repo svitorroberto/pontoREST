@@ -1,0 +1,7 @@
+import todo.Relatorio
+
+model {
+	Relatorio relatorio
+}
+
+json g.render(relatorio)

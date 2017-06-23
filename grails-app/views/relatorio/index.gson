@@ -1,0 +1,8 @@
+import todo.Relatorio
+
+model {
+	Iterable<Relatorio> relatorioList
+}
+
+json tmpl.relatorio(relatorioList ?: [])
+

@@ -1,0 +1,7 @@
+import todo.Pessoa
+
+model {
+	Pessoa pessoa
+}
+
+json g.render(pessoa)

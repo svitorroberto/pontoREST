@@ -1,0 +1,8 @@
+import todo.Pessoa
+
+model {
+	Iterable<Pessoa> pessoaList
+}
+
+json tmpl.pessoa(pessoaList ?: [])
+

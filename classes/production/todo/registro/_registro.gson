@@ -1,0 +1,7 @@
+import todo.Registro
+
+model {
+	Registro registro
+}
+
+json g.render(registro)

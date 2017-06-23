@@ -1,0 +1,6 @@
+#Tue, 20 Jun 2017 12:06:42 -0300
+
+info.app.version=0.1
+info.app.name=todo
+grails.env=development
+info.app.grailsVersion=3.2.6
