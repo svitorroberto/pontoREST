@@ -1,3 +1,4 @@
+<%@ page import="todo.Relatorio" %>
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
@@ -34,13 +35,15 @@
 
 		<div class="text-center">
 			<g:form controller="registro">
-				<p><g:textField name="id" placeHolder="ID Funcionário"></g:textField></p>
+				<p><g:textField name="idPessoa" placeHolder="ID Funcionário"></g:textField></p>
+				<p style="display: none"><g:datePicker name="dataEHora" value="${new Date()}"/></p>
+				<g:hiddenField name="situacao" value="${todo.Situacao.ACEITA}" />
 				<g:actionSubmit value="Bater Ponto" action="save"/>
 			</g:form>
 		</div>
 
 
-		<div ng-include="'/todo/listRegistro.html'"></div>
+		<div ng-include="'/todo/list.html'"></div>
 </div>
 </section>
 </div>

@@ -34,6 +34,8 @@
 				<p><g:datePicker name="dataEHora" value="${new Date()}" noSelection="['': '-Escolha-']"/></p>
 
 				<p><g:textField name="idPessoa" placeHolder="ID Funcionário"></g:textField></p>
+				<p><g:textArea name="justificativa" placeHolder="Justificativa"></g:textArea></p>
+				<g:hiddenField name="situacao" value="${todo.Situacao.PENDENTE}" />
 				<g:actionSubmit value="Bater Ponto" action="save"/>
 			</g:form>
 		</div>

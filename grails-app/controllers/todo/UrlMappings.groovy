@@ -37,5 +37,9 @@ patch "/$controller/$id(.$format)?"(action: 'patch')
 		"/registro/registro"(controller: 'registro', action: "list")
 		"500"(view: '/error')
 		"404"(view: '/notFound')
+
+		//SPRING SECURITY
+		"/login/$action?"(controller: "login")
+		"/logout/$action?"(controller: "logout")
 	}
 }
