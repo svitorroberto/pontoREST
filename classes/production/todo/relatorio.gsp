@@ -38,8 +38,9 @@
 			</g:form>
 		</div>
 
+		<!--<div ng-include="'/todo/listRegistro.html'"></div>-->
 
-		<g:include view="registroTable.gsp"></g:include>
+		<g:include view="relatorioTable.gsp"></g:include>
 
 	</section>
 </div>

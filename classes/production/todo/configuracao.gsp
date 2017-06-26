@@ -1,4 +1,3 @@
-<%@ page import="todo.Tipo; todo.Dia" %>
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
@@ -38,13 +37,13 @@
 							  value="${diaDaSemana}"
 							  noSelection="['': '-Dia da Semana-']"/>
 				</p>
-
 				<p>
 					<g:select name="tipo"
 							  from="${todo.Tipo.values()}"
 							  value="${tipo}"
-							  noSelection="['': '-Tipo-']"/>
+							  noSelection="['': '-Tipo de Dia-']"/>
 				</p>
+
 
 				<p><g:textField name="cargaHoraria" placeHolder="Carga Horária"></g:textField></p>
 

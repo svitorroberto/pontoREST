@@ -10,7 +10,7 @@
 		Nível
 	</th>
 	<th>
-		Opção
+		Salário
 	</th>
 	<tr ng-repeat="p in vm.pessoas">
 		<td>
@@ -23,7 +23,7 @@
 			{{p.nivel}}
 		</td>
 		<td>
-			<button type="button" ng-click="vm.delete(r)">Deletar</button>
+			{{p.salario}}
 		</td>
 	</tr>
 	</tbody>

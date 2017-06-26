@@ -24,21 +24,12 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../build/gson-classes/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.4.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.4.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-core:3.2.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.craigburke.angular:angular-template-asset-pipeline:2.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.4.4.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.craigburke.angular:angular-annotate-asset-pipeline:2.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.4.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.4.4.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.craigburke:js-closure-wrap-asset-pipeline:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-plugin-url-mappings:3.2.6" level="project" />
@@ -58,17 +49,8 @@
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-core:5.1.2.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-ehcache:5.1.2.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.grails.plugins:views-json:1.1.5" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../gsp-classes" />
-          <root url="file://$MODULE_DIR$/../../build/gson-classes/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="Gradle: org.grails.plugins:views-json-templates:1.1.5" level="project" />
+    <orderEntry type="library" name="Gradle: joda-time:joda-time:2.9.9" level="project" />
     <orderEntry type="library" name="Gradle: postgresql:postgresql:9.2-1002.jdbc4" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-plugin-testing:3.2.6" level="project" />
     <orderEntry type="library" name="Gradle: org.grails.plugins:geb:1.0.2" level="project" />
@@ -141,8 +123,8 @@
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-support:2.53.1" level="project" />
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.1.9" level="project" />
-    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.bertramlabs.plugins:asset-pipeline-core:2.11.6" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.3.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:4.3.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-xml:2.4.7" level="project" />
@@ -160,21 +142,21 @@
     <orderEntry type="library" name="Gradle: org.grails:grails-web-mvc:3.2.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.commons:commons-lang3:3.4" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-web-sitemesh:3.2.6" level="project" />
-    <orderEntry type="library" name="Gradle: org.grails:grails-plugin-i18n:3.2.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.httpcomponents:httpmime:4.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.grails:grails-plugin-i18n:3.2.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.sourceforge.htmlunit:htmlunit-core-js:2.17" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-plugin-mimetypes:3.2.6" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: xerces:xercesImpl:2.11.0" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-plugin-validation:3.2.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: xerces:xercesImpl:2.11.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.sourceforge.nekohtml:nekohtml:1.9.22" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-plugin-domain-class:3.2.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.sourceforge.cssparser:cssparser:0.9.16" level="project" />
     <orderEntry type="library" name="Gradle: commons-validator:commons-validator:1.5.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-json:2.4.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-web:4.3.6.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.3.16.v20170120" level="project" />
     <orderEntry type="library" name="Gradle: io.projectreactor.spring:reactor-spring-context:2.0.7.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.3.16.v20170120" level="project" />
     <orderEntry type="library" name="Gradle: io.projectreactor:reactor-bus:2.0.8.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.11" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-databinding:3.2.6" level="project" />
@@ -212,8 +194,8 @@
     <orderEntry type="library" name="Gradle: commons-collections:commons-collections:3.2.2" level="project" />
     <orderEntry type="library" name="Gradle: io.projectreactor.spring:reactor-spring-core:2.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.goldmansachs:gs-collections:5.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.grails:grails-taglib:3.2.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.javascript:closure-compiler-unshaded:v20160713" level="project" />
+    <orderEntry type="library" name="Gradle: org.grails:grails-taglib:3.2.6" level="project" />
     <orderEntry type="library" name="Gradle: javax.transaction:jta:1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-datastore-async:6.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: javax.validation:validation-api:1.1.0.Final" level="project" />
@@ -246,6 +228,25 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.protobuf:protobuf-java:2.5.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.code.findbugs:jsr305:1.3.9" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.3.16.v20170120" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../build/gson-classes/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.mozilla:rhino:1.7.7" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../gsp-classes" />
+          <root url="file://$MODULE_DIR$/../../build/gson-classes/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

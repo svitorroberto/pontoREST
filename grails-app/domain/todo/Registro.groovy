@@ -17,7 +17,7 @@ class Registro {
 	}
 
 	def beforeInsert(){
-		dataEHora = new Date()
+		this.dataEHora = new Date()
 	}
 
 }

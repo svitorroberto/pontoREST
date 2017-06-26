@@ -1,29 +1,29 @@
 <table>
     <tbody>
-    <tr ng-repeat="t in vm.todos">
-        <td>
-            {{t.description}}
-        </td>
-        <td>
-            <input type="checkbox" ng-model="t.done" ng-click="vm.update(t)" />
-        </td>
-        <td>
-            <button type="button" ng-click="vm.delete(t)">Deletar</button>
-        </td>
-    </tr>
-    </tbody>
-</table>
-<table>
-    <tbody>
+    <th>
+        ID
+    </th>
+    <th>
+        Data
+    </th>
+    <th>
+        Situação
+    </th>
+    <th>
+        Justificativa
+    </th>
     <tr ng-repeat="r in vm.registros">
-        <td>
-            {{r.dataEHora}}
-        </td>
         <td>
             {{r.idPessoa}}
         </td>
         <td>
-            <button type="button" ng-click="vm.delete(r)">Deletar</button>
+            {{r.dataEHora}}
+        </td>
+        <td>
+            {{r.situacao}}
+        </td>
+        <td>
+            {{r.justificativa}}
         </td>
     </tr>
     </tbody>

@@ -72,8 +72,8 @@ class RelatorioController {
         render status: NO_CONTENT
     }
 
-    def listar(Relatorio relatorio){
+    def relatorioRegistros(Relatorio relatorio){
         relatorio = new Relatorio([idPessoa: 10])//FIXME
-        return [relatorios: relatorioService.obterRelatorios(relatorio)]
+        respond relatorios: relatorioService.obterRelatorios(relatorio), view:'relatorioRegistros'
     }
 }

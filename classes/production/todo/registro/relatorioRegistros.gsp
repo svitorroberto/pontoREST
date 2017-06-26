@@ -39,7 +39,7 @@
 		</div>
 
 
-		<g:include view="registroTable.gsp"></g:include>
+		<g:include view="relatorioTable.gsp"></g:include>
 
 	</section>
 </div>

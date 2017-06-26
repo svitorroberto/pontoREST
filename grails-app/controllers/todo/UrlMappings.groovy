@@ -22,7 +22,7 @@ patch "/$controller/$id(.$format)?"(action: 'patch')
 		"/configuracoes"(resources: "configuracao")
 
 		"/pendingTodos"(controller: 'todo', action: 'pending')
-		"/testeRelatorio"(controller: 'relatorio', action: 'listar')
+		"/testeRelatorio"(controller: 'relatorio', action: 'relatorioRegistros')
 
 		"/registro/submit"(controller: "test", action: "index")
 

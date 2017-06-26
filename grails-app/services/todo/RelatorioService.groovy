@@ -1,38 +1,72 @@
 package todo
 
 import grails.transaction.Transactional
+import org.joda.time.DateTime
+import org.joda.time.Minutes
+import org.joda.time.Period
 
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 
 @Transactional
 class RelatorioService {
-    DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+	DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
-    def serviceMethod() {
+	def serviceMethod() {
+	}
 
-    }
+	def obterRelatorios(Relatorio relatorio) {
+		Relatorio resultadoRelatorio = new Relatorio()
+		//    if(relatorio.pontoBatido.isEmpty()){
+		ArrayList<Registro> registros
+		registros = Registro.executeQuery("from Registro where idPessoa = :id", [id: relatorio.idPessoa])
+		Map<String, List<Registro>> registrosSeparados = separaPorDia(registros)
+		List<Relatorio> relatorios = formarRelatorios(registrosSeparados)
+		return relatorios
+	}
 
-    def obterRelatorios(Relatorio relatorio){
-        Relatorio resultadoRelatorio = new Relatorio()
-       //    if(relatorio.pontoBatido.isEmpty()){
-            ArrayList<Registro> registros
-            def datas = Registro.executeQuery("from Registro where idPessoa = :id", [id:relatorio.idPessoa])
-            datas.each {
-                registros = Registro.executeQuery("select idPessoa CAST(dataehora AS DATE) as data from Registro where idPessoa = :id and data = CAST(:data)", [id:relatorio.idPessoa, data: it])
-                registros.each { data, index ->
-                    resultadoRelatorio.pontoBatido
-                }
-            }
+	def Map separaPorDia(ArrayList<Registro> registros) {
+		Map<String, List<Registro>> registrosSeparados = new HashMap<String, List<Registro>>();
+		for (Registro registro : registros) {
+			String somenteData = dateFormat.format(registro.dataEHora)
+			if (!registrosSeparados.containsKey(somenteData)) {
+				List<Registro> quaseRelatorio = new ArrayList<>()
+				quaseRelatorio.add(registro)
+				registrosSeparados.put(somenteData, quaseRelatorio)
+			}else {
+				List<Registro> quaseRelatorio = registrosSeparados.get(somenteData)
+				quaseRelatorio.add(registro)
+				registrosSeparados.put(somenteData, quaseRelatorio)
+			}
+		}
 
-            //ArrayList<Registro> registros = Registro.executeQuery("from Registro where idPessoa = :id", [id:relatorio.idPessoa])
+		return registrosSeparados
+	}
 
-        //}
+	def List<Relatorio> formarRelatorios(Map<String, List<Registro>> mapRegistros) {
+		List<Relatorio> listaRelatorioPorDia = new ArrayList<>()
+		Relatorio relatorio
+		mapRegistros.each {
+			relatorio = new Relatorio()
+			relatorio.setIdPessoa(it.value.get(0).idPessoa)
+			if(it.value.size()==4){
+				relatorio.setPontoBatido(it.getValue())
+				contarHoras(relatorio)
+			}
+			listaRelatorioPorDia.add(relatorio)
+		}
+		return listaRelatorioPorDia
+	}
 
-        return Relatorio.executeQuery("from Relatorio where idPessoa = :id", [offset:0, max:4, id:relatorio.idPessoa])
-    }
-
-    def Map separaPorDia(ArrayList<Registro> registros){
-        //retorna Map<Date,List<Relatorio>>
-    }
+	def Relatorio contarHoras(Relatorio relatorio){
+		List<DateTime> jodaHoras = new ArrayList<>()
+		relatorio.pontoBatido.each {
+			jodaHoras.add(new DateTime(it.dataEHora))
+		}
+		Period horasTrabalhadas = new Period(jodaHoras.get(0), jodaHoras.get(1))
+		Period horasTrabalhadas2 = new Period(jodaHoras.get(2), jodaHoras.get(3))
+		Period horasTotal = horasTrabalhadas+horasTrabalhadas2
+		relatorio.setSaldoHoras(horasTotal)
+		return relatorio
+	}
 }

@@ -7,17 +7,6 @@
           <root url="file://$MODULE_DIR$/../../src/main/webapp" relative="/" />
           <root url="file://$MODULE_DIR$/../../build/assets" relative="/assets" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/../../src/main/resources" />
-          <root url="file://$MODULE_DIR$/../../src/main/java" />
-          <root url="file://$MODULE_DIR$/../../grails-app/views" />
-          <root url="file://$MODULE_DIR$/../../grails-app/controllers" />
-          <root url="file://$MODULE_DIR$/../../grails-app/domain" />
-          <root url="file://$MODULE_DIR$/../../grails-app/conf" />
-          <root url="file://$MODULE_DIR$/../../grails-app/init" />
-          <root url="file://$MODULE_DIR$/../../grails-app/i18n" />
-          <root url="file://$MODULE_DIR$/../../src/main/groovy" />
-        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -28,10 +17,10 @@
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/domain" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/init" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/conf" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/i18n" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/views" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../grails-app/services" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../../src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/groovy" isTestSource="false" />
@@ -55,8 +44,8 @@
     </orderEntry>
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.4.4.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.craigburke.angular:angular-template-asset-pipeline:2.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.grails:grails-plugin-url-mappings:3.2.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.craigburke.angular:angular-annotate-asset-pipeline:2.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.grails:grails-plugin-url-mappings:3.2.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.craigburke:js-closure-wrap-asset-pipeline:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-plugin-rest:3.2.6" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-plugin-codecs:3.2.6" level="project" />
@@ -75,6 +64,7 @@
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-ehcache:5.1.2.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.grails.plugins:views-json:1.1.5" level="project" />
     <orderEntry type="library" name="Gradle: org.grails.plugins:views-json-templates:1.1.5" level="project" />
+    <orderEntry type="library" name="Gradle: joda-time:joda-time:2.9.9" level="project" />
     <orderEntry type="library" name="Gradle: postgresql:postgresql:9.2-1002.jdbc4" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.1.9" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.22" level="project" />
@@ -184,8 +174,8 @@
     <orderEntry type="library" name="Gradle: io.projectreactor.spring:reactor-spring-core:2.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.goldmansachs:gs-collections:5.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-taglib:3.2.6" level="project" />
-    <orderEntry type="library" name="Gradle: javax.transaction:jta:1.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.javascript:closure-compiler-unshaded:v20160713" level="project" />
+    <orderEntry type="library" name="Gradle: javax.transaction:jta:1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-datastore-async:6.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: javax.validation:validation-api:1.1.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.jsr166-mirror:jsr166y:1.7.0" level="project" />

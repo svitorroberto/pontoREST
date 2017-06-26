@@ -36,6 +36,11 @@
 
 				<p><g:textField name="senha" placeHolder="Senha Funcionário"></g:textField></p>
 
+
+
+
+				<p><g:textField name="salario" placeHolder="Salário Funcionário"></g:textField></p>
+
 				<p><g:select name="nivel"
 							 from="${todo.Nivel.values()}"
 							 value="${nivel}"

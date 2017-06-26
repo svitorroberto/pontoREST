@@ -1,9 +1,11 @@
 package todo
 
+import org.joda.time.Period
+
 class Relatorio {
 
     Long idPessoa
-    Double saldoHoras
+    Period saldoHoras
     List<Date> pontoBatido
 
 }
