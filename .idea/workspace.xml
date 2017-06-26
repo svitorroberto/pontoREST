@@ -2,72 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dfa0d67-b916-471a-8ce0-c3bae1885fd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_9_9.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/todo/RelatorioController$_listar_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/todo/RelatorioService$__tt__obterRelatorios_closure3$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/todo/RelatorioService$__tt__obterRelatorios_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/todo/AdministradorSpec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/todo/registroTable.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/groovy/todo/AdministradorSpec.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/BootStrap$_closure1$_closure3.class" afterPath="$PROJECT_DIR$/build/classes/main/BootStrap$_closure1$_closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/BootStrap$_closure1$_closure4.class" afterPath="$PROJECT_DIR$/build/classes/main/BootStrap$_closure1$_closure4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/BootStrap$_closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/BootStrap$_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/BootStrap$_closure2.class" afterPath="$PROJECT_DIR$/build/classes/main/BootStrap$_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/BootStrap.class" afterPath="$PROJECT_DIR$/build/classes/main/BootStrap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/todo/Configuracao.class" afterPath="$PROJECT_DIR$/build/classes/main/todo/Configuracao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/todo/Pessoa.class" afterPath="$PROJECT_DIR$/build/classes/main/todo/Pessoa.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/todo/Registro$__clinit__closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/todo/Registro$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/todo/Registro.class" afterPath="$PROJECT_DIR$/build/classes/main/todo/Registro.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/todo/RegistroController.class" afterPath="$PROJECT_DIR$/build/classes/main/todo/RegistroController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/todo/Relatorio.class" afterPath="$PROJECT_DIR$/build/classes/main/todo/Relatorio.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/todo/RelatorioController.class" afterPath="$PROJECT_DIR$/build/classes/main/todo/RelatorioController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/todo/RelatorioService$_obterRelatorios_closure2.class" afterPath="$PROJECT_DIR$/build/classes/main/todo/RelatorioService$_obterRelatorios_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/todo/RelatorioService$_serviceMethod_closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/todo/RelatorioService$_serviceMethod_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/todo/RelatorioService.class" afterPath="$PROJECT_DIR$/build/classes/main/todo/RelatorioService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/todo/Todo.class" afterPath="$PROJECT_DIR$/build/classes/main/todo/Todo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/todo/UrlMappings$__clinit__closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/todo/UrlMappings$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/ex02/FuncionarioSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/ex02/FuncionarioSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/todo/ConfiguracaoControllerSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/todo/ConfiguracaoControllerSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/todo/ConfiguracaoServiceSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/todo/ConfiguracaoServiceSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/todo/ConfiguracaoSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/todo/ConfiguracaoSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/todo/PessoaControllerSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/todo/PessoaControllerSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/todo/PessoaServiceSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/todo/PessoaServiceSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/todo/PessoaSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/todo/PessoaSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/todo/RegistroControllerSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/todo/RegistroControllerSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/todo/RegistroServiceSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/todo/RegistroServiceSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/todo/RegistroSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/todo/RegistroSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/todo/RelatorioSpec.class" afterPath="$PROJECT_DIR$/build/classes/test/todo/RelatorioSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___ex02___todo_0_1_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___ex02___todo_0_1_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/todo_integrationTest.iml" afterPath="$PROJECT_DIR$/.idea/modules/todo_integrationTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/todo_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/todo_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/todo_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/todo_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/.dependencies" afterPath="$PROJECT_DIR$/build/.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/stacktrace.log" afterPath="$PROJECT_DIR$/build/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/todo/configuracao.gsp" afterPath="$PROJECT_DIR$/classes/production/todo/configuracao.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/todo/index.gsp" afterPath="$PROJECT_DIR$/classes/production/todo/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/todo/registro/relatorioRegistros.gsp" afterPath="$PROJECT_DIR$/classes/production/todo/registro/relatorioRegistros.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/todo/registro/show.gsp" afterPath="$PROJECT_DIR$/classes/production/todo/registro/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/todo/relatorio.gsp" afterPath="$PROJECT_DIR$/classes/production/todo/relatorio.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/javascripts/todo/templates/list.tpl.html" afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/todo/templates/list.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/javascripts/todo/templates/listPessoa.tpl.html" afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/todo/templates/listPessoa.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/todo/RelatorioController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/todo/RelatorioController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/todo/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/todo/UrlMappings.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/todo/Registro.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/todo/Registro.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/todo/Relatorio.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/todo/Relatorio.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/init/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/init/BootStrap.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/todo/RelatorioService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/todo/RelatorioService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/cadastro.gsp" afterPath="$PROJECT_DIR$/grails-app/views/cadastro.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/marcacao.gsp" afterPath="$PROJECT_DIR$/grails-app/views/marcacao.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/requisicao.gsp" afterPath="$PROJECT_DIR$/grails-app/views/requisicao.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo.iml" afterPath="$PROJECT_DIR$/todo.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -172,21 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listPessoa.tpl.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listPessoa.tpl.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/todo/templates/listPessoa.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="405">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="configuracao.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/configuracao.gsp">
+      <file leaf-file-name="todo.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/todo.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="43" column="61" lean-forward="false" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+            <state relative-caret-position="120">
+              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -1057,7 +992,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/views/baterPonto.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/registro/index.gson" />
         <option value="$PROJECT_DIR$/grails-app/controllers/todo/TodoController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/registro/baterPonto.gsp" />
@@ -1108,6 +1042,7 @@
         <option value="$PROJECT_DIR$/grails-app/views/marcacao.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/cadastro.gsp" />
         <option value="$PROJECT_DIR$/grails-app/assets/javascripts/todo/templates/listPessoa.tpl.html" />
+        <option value="$PROJECT_DIR$/todo.iml" />
       </list>
     </option>
   </component>
@@ -1155,156 +1090,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1790,12 +1575,12 @@
       <workItem from="1498129874311" duration="22193000" />
       <workItem from="1498216374790" duration="14439000" />
       <workItem from="1498240065936" duration="9665000" />
-      <workItem from="1498473094510" duration="25226000" />
+      <workItem from="1498473094510" duration="25418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99673000" />
+    <option name="totallyTimeSpent" value="99865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -2133,14 +1918,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/registro/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/todo/Administrador.groovy" />
     <entry file="jar:///media/WORK/apps/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/3.2.6/e6a556d8f82ae0331407f6e0bfe97ed2dfb13e57/grails-plugin-rest-3.2.6-sources.jar!/grails/rest/RestfulController.groovy">
       <provider selected="true" editor-type-id="text-editor">
@@ -2529,8 +2306,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/todo/templates/listPessoa.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="405">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding />
         </state>
       </provider>
