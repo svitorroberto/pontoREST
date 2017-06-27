@@ -17,12 +17,20 @@ class RelatorioService {
 
 	def obterRelatorios(Relatorio relatorio) {
 		Relatorio resultadoRelatorio = new Relatorio()
-		//    if(relatorio.pontoBatido.isEmpty()){
-		ArrayList<Registro> registros
-		registros = Registro.executeQuery("from Registro where idPessoa = :id", [id: relatorio.idPessoa])
-		Map<String, List<Registro>> registrosSeparados = separaPorDia(registros)
-		List<Relatorio> relatorios = formarRelatorios(registrosSeparados)
-		return relatorios
+		if(relatorio.idPessoa != null) {
+			ArrayList<Registro> registros
+			registros = Registro.executeQuery("from Registro where idPessoa = :id", [id: relatorio.idPessoa])
+			Map<String, List<Registro>> registrosSeparados = separaPorDia(registros)
+			List<Relatorio> relatorios = formarRelatorios(registrosSeparados)
+			return relatorios
+		}
+		else{
+			ArrayList<Registro> registros
+			registros = Registro.executeQuery("from Registro")
+			Map<String, List<Registro>> registrosSeparados = separaPorDia(registros)
+			List<Relatorio> relatorios = formarRelatorios(registrosSeparados)
+			return relatorios
+		}
 	}
 
 	def Map separaPorDia(ArrayList<Registro> registros) {

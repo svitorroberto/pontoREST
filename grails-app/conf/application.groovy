@@ -29,9 +29,10 @@ grails.plugin.springsecurity.filterChain.chainMap = [
 grails.plugins.springsecurity.securityConfigType = SecurityConfigType.InterceptUrlMap
 
 grails.plugins.springsecurity.interceptUrlMap = [
+		'/**'              : ['IS_AUTHENTICATED_ANONYMOUSLY'],
 		'/timeline'        : ['ROLE_USER'],
 		'/person/*'        : ['IS_AUTHENTICATED_REMEMBERED'],
 		'/post/followAjax' : ['ROLE_USER'],
-		'/post/addPostAjax': ['ROLE_USER', 'IS_AUTHENTICATED_FULLY'],
-		'/**'              : ['IS_AUTHENTICATED_ANONYMOUSLY']
+		'/post/addPostAjax': ['ROLE_USER', 'IS_AUTHENTICATED_FULLY']
+
 ]
